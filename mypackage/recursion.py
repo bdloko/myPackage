@@ -14,12 +14,12 @@ def fibonacci(n):
     elif n == 1:
         return 1
     else:
-        return fibonacci(n-1)+fibonacci(n-2)
+        return fibonacci(n-1) + fibonacci(n-2)
 
     '''Return nth term in fibonacci sequence'''
 
 def factorial(n):
-    if n == 1:
+    if n == 1 or n == 0:
         return 1
     return n * factorial(n - 1)
 
