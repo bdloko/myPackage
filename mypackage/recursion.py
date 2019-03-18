@@ -9,6 +9,12 @@ def sum_array(array):
     #Return sum of all items in array
 
 def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1)+fibonacci(n-2)
 
     '''Return nth term in fibonacci sequence'''
 
@@ -23,7 +29,3 @@ def reverse(word):
     return word[::-1]
 
     #Return word in reverse'''
-
-print(sum_array([1,2,3]))
-print(factorial(5))
-print(reverse("abcdef"))
