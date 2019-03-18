@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: mypackage
+Version: 0.1
+Summary: EDSA example python package
+Home-page: https://github.com/bdloko/myPackage
+Author: bdloko
+Author-email: mrdloko@gmail.com
+License: MIT
+Description: # myPackage
+        #The first EDSA hackathon
+        
+        #The function we are going to create will perform the task of returning the top-n items in an array, in descending order.
+        
+        #To do this, we will create an algorithm not too dissimilar to the bubble sort.
+        
+Platform: UNKNOWN
