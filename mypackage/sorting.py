@@ -1,3 +1,5 @@
+#global sum_array, fibonacci, factorial, reverse, bubble_sort, merge_sort, quick_sort
+
 def bubble_sort(items):
     for i in range(len(items)-1, 0, -1):
         for index in range(i):
