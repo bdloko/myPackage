@@ -3,7 +3,7 @@ def bubble_sort(items):
         for index in range(i):
             if items[index] < items[index + 1]:
                items[index], items[index + 1] = items[index + 1], items[index]
-    return items
+    return items[::-1]
     '''Return array of items, sorted in ascending order'''
 
 def merge_sort(items):
