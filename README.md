@@ -5,4 +5,4 @@
 
 ### To do this, we will create an algorithm not too dissimilar to the bubble sort.
 
-python_package=0.1.0
+myPackage=0.1.0
